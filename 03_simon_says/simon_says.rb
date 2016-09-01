@@ -28,7 +28,7 @@ def first_word (sentence)
 end
 
 def titleize (sentence)
-	dont_capitalize = ["and", "over", "the", "it", "is", "of", "or", "are", "from", "has", "have"]
+	dont_capitalize = ["and", "an", "in", "over", "the", "it", "is", "of", "or", "are", "from", "has", "have"]
 	
 	temp = sentence.split.map{|word|
 		if dont_capitalize.include?(word)
